@@ -1,4 +1,4 @@
-import random
+import random  #could be either random or secrets, but since its just a proof of concept going with random
 
 #a "simple" program to generate random passwords a la that one xkcd.
 #takes a text file of the 10 thousand most used words and grabs 4 random ones.
