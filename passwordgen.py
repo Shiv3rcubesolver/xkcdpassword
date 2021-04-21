@@ -5,6 +5,7 @@ import random  #could be either random or secrets, but since its just a proof of
 #it might be too much for python, might need to use a compiled language.
 #there is also the easy way out, as on pip there are a few modules that just grab random words
 #also using vim to code this just to get more used to it again.
+#todo: refactor the code so it can be run as a library
 
 #create list of words from word document
 
