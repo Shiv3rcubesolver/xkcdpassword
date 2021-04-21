@@ -1,4 +1,4 @@
-import secrets
+import random
 
 #a "simple" program to generate random passwords a la that one xkcd.
 #takes a text file of the 10 thousand most used words and grabs 4 random ones.
@@ -18,5 +18,5 @@ words.close()
 repetitions = 4 #change this to change the amount of words glued together
 password = ''
 for i in range(0,repetitions):
-   password += secrets.choice(wordlist).replace('\n', '')
+   password += random.choice(wordlist).replace('\n', '')
 print (password)
